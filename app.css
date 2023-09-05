@@ -1,8 +1,72 @@
-body{
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+body {
     background-color: antiquewhite;
 }
 
 #main {
     max-width: 616px;
     background-color: white;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 6%;
+}
+
+#cart {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: small;
+    letter-spacing: 0.3em;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 32px;
+    /* border: 5px solid black; */
+    box-sizing: border-box;
+    line-height: 1;
+    color: black;
+}
+.price{
+    padding-right:7%;
+}
+.pricemain {
+    font-size: 32px;
+    font-family: 'Fraunces';
+    font-weight: bold;
+}
+
+.pricecross{
+    align-self: center;
+    text-decoration: line-through;
+}
+.btn{
+    font-family: inherit;
+    font-weight: inherit;
+    align-self: center;
+    font-size: small;
+}
+
