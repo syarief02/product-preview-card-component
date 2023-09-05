@@ -5,5 +5,4 @@ body{
 #main {
     max-width: 616px;
     background-color: white;
-    transform: translateX(1em);
 }
