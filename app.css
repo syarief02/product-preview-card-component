@@ -9,18 +9,20 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: hsl(30, 38%, 92%);
+    justify-self: center;
 }
 
 #main {
     max-width: 616px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 500;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: hsl(228, 12%, 48%);
 }
 
 #info {
@@ -48,25 +50,66 @@ h2 {
     /* border: 5px solid black; */
     box-sizing: border-box;
     line-height: 1;
-    color: black;
+    color: hsl(212, 21%, 14%);
 }
-.price{
-    padding-right:7%;
+
+.price {
+    padding-right: 7%;
 }
+
 .pricemain {
     font-size: 32px;
     font-family: 'Fraunces';
     font-weight: bold;
 }
 
-.pricecross{
+.pricecross {
     align-self: center;
     text-decoration: line-through;
 }
-.btn{
+
+.btn {
     font-family: inherit;
     font-weight: inherit;
     align-self: center;
     font-size: small;
 }
 
+.btn:hover {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.image2 {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .image1 {
+        display: none;
+    }
+
+    .image2 {
+        display: block;
+        border-bottom-left-radius: 0% !important;
+        border-bottom-right-radius: 0% !important;
+    }
+
+    #main {
+        max-width: 375px;
+        height: 667px;
+    }
+
+    #ProductImage{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    #info{
+        padding-bottom: 1em;
+        font-size: medium;
+    }
+    p{
+        transform: translateY(0.5em);
+    }
+}
