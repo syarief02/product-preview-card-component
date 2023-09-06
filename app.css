@@ -73,6 +73,7 @@ h2 {
     font-weight: inherit;
     align-self: center;
     font-size: small;
+    padding: 1em;
 }
 
 .btn:hover {
@@ -111,5 +112,8 @@ h2 {
     }
     p{
         transform: translateY(0.5em);
+    }
+    .btn{
+        font-size: medium;
     }
 }
