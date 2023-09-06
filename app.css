@@ -86,7 +86,7 @@ h2 {
 @media only screen and (max-width: 576px) {
 
     .image1 {
-        display: none;
+        display: none !important;
     }
 
     .image2 {
