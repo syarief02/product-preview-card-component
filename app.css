@@ -1,3 +1,14 @@
+/* < !-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url(https://fonts.google.com/specimen/Montserrat);
@@ -101,19 +112,21 @@ h2 {
         height: 667px;
     }
 
-    #ProductImage{
+    #ProductImage {
         flex-wrap: wrap;
         height: fit-content;
     }
 
-    #info{
+    #info {
         padding-bottom: 1em;
         font-size: medium;
     }
-    p{
+
+    p {
         transform: translateY(0.5em);
     }
-    .btn{
+
+    .btn {
         font-size: medium;
     }
 }
