@@ -95,7 +95,7 @@ after a few weeks of learning html, css, and bootstrap. my next focus is to lear
 
 ### Useful resources
 
-- [StackOverflow](https://stackoverflow.com/questions/52941346/css-height-calc100vh-vs-height-100vh) - This helped me fora lot of things such as understanding some properties i don't know about. because there's a lot of people with similar problem and people who solved the problem with example. I really liked this site and will use it going forward.
+- [StackOverflow](https://stackoverflow.com/questions/52941346/css-height-calc100vh-vs-height-100vh) - This helped me for a lot of things such as understanding some properties i don't know about. because there's a lot of people with similar problem and people who solved the problem with example. I really liked this site and will use it going forward.
 
 - [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) - This is an amazing website which i can find courses to learn everything about tech. I'd recommend it to anyone still learning web development.
 
