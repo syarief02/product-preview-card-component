@@ -28,9 +28,9 @@ Users should be able to:
 ### Screenshot
 
 ### Desktop Design :
-![](./images/desktop%20design.png)
+![Desktop](./images/desktop%20design.png)
 ### Mobile Design :
-![](./images/mobile%20design.png)
+![Mobile](./images/mobile%20design.png)
 
 ### Links
 
